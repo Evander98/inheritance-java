@@ -13,7 +13,7 @@ public class Lingkaran {
   }
 
   public double getR(){
-    return r = 5.0;
+    return r;
   }
 
   public double luasLingkaran(){

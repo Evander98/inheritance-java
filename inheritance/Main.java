@@ -10,7 +10,6 @@ public class Main {
     Segitiga segitiga = new Segitiga();
     Prisma prisma = new Prisma();
 
-    Lingkaran lingkaran = new Lingkaran();
     Bola bola = new Bola();
 
     Persegi persegi = new Persegi();
@@ -44,10 +43,10 @@ public class Main {
 
     System.out.println();
 
-    lingkaran.setR(r);
+    bola.setR(r);
 
-    System.out.println("Luas Lingkaran: " + lingkaran.luasLingkaran());
-    System.out.println("Keliling Lingkaran: " + lingkaran.kelilingLingkaran());
+    System.out.println("Luas Lingkaran: " + bola.luasLingkaran());
+    System.out.println("Keliling Lingkaran: " + bola.kelilingLingkaran());
     System.out.println("Volume bola: " + bola.volumeBola());
 
     System.out.println();
