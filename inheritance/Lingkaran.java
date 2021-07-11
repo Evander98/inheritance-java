@@ -18,6 +18,7 @@ public class Lingkaran {
 
   public double luasLingkaran(){
     return phi * r * r;
+    
   }
   
   public double kelilingLingkaran(){
