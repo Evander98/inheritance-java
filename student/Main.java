@@ -57,7 +57,7 @@ public class Main {
     course.learningPlan();
     System.out.println("Total Credits: " + course.totalCredit());
 
-
+    
     sc.close();
   }
   

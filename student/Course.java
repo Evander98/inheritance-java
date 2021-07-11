@@ -14,15 +14,6 @@ public class Course extends Person implements College{
     this.credits = credits;
     this.room = room;
   }
-  public ArrayList<String> getCourseName() {
-    return courseName;
-  }
-  public ArrayList<Integer> getCredits() {
-    return credits;
-  }
-  public ArrayList<String> getRoom() {
-    return room;
-  }
 
   public int totalCredit() {
     int newCredit = 0;
@@ -53,7 +44,5 @@ public class Course extends Person implements College{
     System.out.println("Address: " + getAddress());
     System.out.println();
   }
-
-  
   
 }
